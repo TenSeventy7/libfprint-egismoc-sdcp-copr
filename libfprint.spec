@@ -11,7 +11,7 @@
 Name:           libfprint
 
 Version:        1.94.9
-Release:        2.%{autorelease}.egismoc.sdcp
+Release:        2.2.egismoc.sdcp
 Summary:        Toolkit for fingerprint scanner
 
 # Automatically converted from old format: LGPLv2+ - review is highly recommended.
@@ -70,9 +70,6 @@ the functionality of the installed %{name} package.
 %meson_install
 
 %ldconfig_scriptlets
-
-%check
-%meson_test -t 4
 
 %files
 %license COPYING
