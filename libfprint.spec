@@ -11,13 +11,13 @@
 Name:           libfprint
 
 Version:        1.94.9
-Release:        %autorelease
+Release:        2.%{autorelease}.egismoc.sdcp
 Summary:        Toolkit for fingerprint scanner
 
 # Automatically converted from old format: LGPLv2+ - review is highly recommended.
 License:        LicenseRef-Callaway-LGPLv2+
 URL:            http://www.freedesktop.org/wiki/Software/fprint/libfprint
-Source0:        https://codeload.github.com/TenSeventy7/libfprint-egismoc-sdcp/tar.gz/refs/heads/master
+Source0:        https://github.com/TenSeventy7/libfprint-egismoc-sdcp/archive/refs/heads/master.tar.gz
 ExcludeArch:    s390 s390x
 
 BuildRequires:  meson
@@ -59,7 +59,7 @@ The %{name}-tests package contains tests that can be used to verify
 the functionality of the installed %{name} package.
 
 %prep
-%autosetup -S git -n libfprint-v%{version}
+%autosetup -n libfprint-egismoc-sdcp-master -p1
 
 %build
 # Include the virtual image driver for integration tests
