@@ -59,7 +59,7 @@ The %{name}-tests package contains tests that can be used to verify
 the functionality of the installed %{name} package.
 
 %prep
-%autosetup -n libfprint-egismoc-sdcp-master -p1
+%autosetup -n libfprint-feature-sdcp-v2 -p1
 
 %build
 # Include the virtual image driver for integration tests
