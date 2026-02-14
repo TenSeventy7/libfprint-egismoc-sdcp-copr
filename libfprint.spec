@@ -10,8 +10,8 @@
 
 Name:           libfprint
 
-Version:        1.94.9
-Release:        11.1.egismoc.sdcp
+Version:        1.94.10
+Release:        2.1.egismoc.sdcp
 Summary:        Toolkit for fingerprint scanner
 
 # Automatically converted from old format: LGPLv2+ - review is highly recommended.
